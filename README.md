@@ -1,4 +1,5 @@
-# ven
+# Personal Site
+Full Credits goto [Ven](https://github.com/ven)
 
 ## Project setup
 ```
