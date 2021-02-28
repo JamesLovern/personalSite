@@ -1,6 +1,8 @@
 # Personal Site
 Full Credits goto [Ven](https://github.com/ven)
 
+<br />
+
 ## Project setup
 ```
 npm install
@@ -25,6 +27,8 @@ npm run test
 ```
 npm run lint
 ```
+
+<br />
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
