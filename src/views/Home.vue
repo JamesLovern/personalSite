@@ -117,7 +117,7 @@ export default {
     updateSpotify() {
       axios
         .get(
-          'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=venoras&api_key=96942f94e74b8ab4ae1b96534da87f00&format=json&limit=1',
+          'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=JamesLovern&api_key=b1875bc0c40c941df88c4e61297bcf31&format=json&limit=1',
         )
         .then(response => {
           this.lastFM = response.data;
