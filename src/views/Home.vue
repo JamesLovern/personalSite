@@ -12,33 +12,39 @@
     <div v-if="!loading && !konami" class="h-full sm:pl-32 text-white flex items-center sm:justify-left justify-center">
       <div class="w-full title">
         <div class="sm:text-left text-center leading-snug">
-          <div class="sm:text-5xl text-4xl font-bold">Hi, I'm Ven.</div>
+          <div class="sm:text-5xl text-4xl font-bold">👋 hey, i'm james.</div>
           <div class="manrope sm:text-2xl text-xl font-base text-gray-300 tracking-wide subpixel-antialiased">
-            18-year-old software developer.
+            16-year-old software developer.
+            <br />
+            founder of <a href="https://livecops.io">livecops</a>.
           </div>
         </div>
         <div
           class="manrope mt-4 sm:px-0 px-6 flex flex-wrap sm:justify-start justify-center text-indigo-200 overflow-hidden tracking-wide font-medium"
         >
-          <a href="https://github.com/ven" target="_blank" class="flex items-center mr-5 hover:text-indigo-300 mt-2">
+          <a
+            href="https://github.com/JamesLovern"
+            target="_blank"
+            class="flex items-center mr-5 hover:text-indigo-300 mt-2"
+          >
             <font-awesome-icon class="mr-2" :icon="['fab', 'github']" />
-            <div class="text-xs">ven</div>
+            <div class="text-xs">JamesLovern</div>
           </a>
           <a
-            href="https://twitter.com/venolol"
+            href="https://twitter.com/__jameslovern"
             target="_blank"
             class="flex items-center mr-5 hover:text-indigo-300 mt-2"
           >
             <font-awesome-icon class="mr-2" :icon="['fab', 'twitter']" />
-            <div class="text-xs">@venolol</div>
+            <div class="text-xs">@__jameslovern</div>
           </a>
-          <a href="https://dsc.bio/v" target="_blank" class="flex items-center mr-5 hover:text-indigo-300 mt-2">
+          <a href="https://dsc.bio/james" target="_blank" class="flex items-center mr-5 hover:text-indigo-300 mt-2">
             <font-awesome-icon class="mr-2" :icon="['fab', 'discord']" />
-            <div class="text-xs">ven#9999</div>
+            <div class="text-xs">Jazzzi#6120</div>
           </a>
-          <a href="mailto:v@ven.earth" target="_blank" class="flex items-center hover:text-indigo-300 mt-2">
+          <a href="mailto:hey@lovern.io" target="_blank" class="flex items-center hover:text-indigo-300 mt-2">
             <font-awesome-icon class="mr-2" :icon="['fa', 'envelope']" />
-            <div class="text-xs">v@ven.earth</div>
+            <div class="text-xs">hey@lovern.io</div>
           </a>
         </div>
         <div v-show="false" class="mt-4 sm:px-0 px-6 flex flex-wrap sm:justify-start justify-center text-sm opacity-75">
@@ -97,7 +103,7 @@ export default {
   mounted() {
     axios
       .get(
-        'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=venoras&api_key=96942f94e74b8ab4ae1b96534da87f00&format=json&limit=1',
+        'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=JamesLovern&api_key=b1875bc0c40c941df88c4e61297bcf31&format=json&limit=1',
       )
       .then(response => {
         this.lastFM = response.data;
