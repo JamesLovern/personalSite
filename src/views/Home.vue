@@ -16,7 +16,8 @@
           <div class="manrope sm:text-2xl text-xl font-base text-gray-300 tracking-wide subpixel-antialiased">
             16-year-old software developer.
             <br />
-            founder of <a href="https://livecops.io">livecops</a>.
+            founder of
+            <span class="italic hover:text-indigo-300"><a href="https://livecops.io">livecops</a>.</span>
           </div>
         </div>
         <div
@@ -47,10 +48,10 @@
             <div class="text-xs">hey@lovern.io</div>
           </a>
         </div>
-        <div v-show="false" class="mt-4 sm:px-0 px-6 flex flex-wrap sm:justify-start justify-center text-sm opacity-75">
-          <font-awesome-icon class="mr-4" :icon="['fab', 'node-js']" />
+        <div v-show="true" class="mt-4 sm:px-0 px-6 flex flex-wrap sm:justify-start justify-center text-sm opacity-75">
+          <!-- <font-awesome-icon class="mr-4" :icon="['fab', 'node-js']" /> -->
           <font-awesome-icon class="mr-4" :icon="['fab', 'python']" />
-          <font-awesome-icon class="mr-4" :icon="['fab', 'vuejs']" />
+          <!-- <font-awesome-icon class="mr-4" :icon="['fab', 'vuejs']" /> -->
           <font-awesome-icon class="mr-4" :icon="['fab', 'html5']" />
           <font-awesome-icon class="mr-4" :icon="['fab', 'css3-alt']" />
           <font-awesome-icon :icon="['fab', 'ubuntu']" />
@@ -65,6 +66,12 @@
           <font-awesome-icon class="mr-1" :icon="['fab', 'spotify']" /> Listening to
           <span class="italic">{{ lastFM.recenttracks.track[0].name }} </span>
           on Spotify
+        </div>
+        <div
+          class="manrope text-white p-8 absolute font-bold bottom-0 lg:left-0 text-white-500 text-sm opacity-50 text-center invisible sm:visible"
+        >
+          Site by
+          <span class="italic hover:text-indigo-300"><a href="https://github.com/ven">Ven</a></span>
         </div>
       </div>
     </transition>
