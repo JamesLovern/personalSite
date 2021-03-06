@@ -32,12 +32,12 @@
             <div class="text-xs">JamesLovern</div>
           </a>
           <a
-            href="https://twitter.com/__jameslovern"
+            href="https://twitter.com/_jameslovern"
             target="_blank"
             class="flex items-center mr-5 hover:text-indigo-300 mt-2"
           >
             <font-awesome-icon class="mr-2" :icon="['fab', 'twitter']" />
-            <div class="text-xs">@__jameslovern</div>
+            <div class="text-xs">@_jameslovern</div>
           </a>
           <a href="https://dsc.bio/james" target="_blank" class="flex items-center mr-5 hover:text-indigo-300 mt-2">
             <font-awesome-icon class="mr-2" :icon="['fab', 'discord']" />
