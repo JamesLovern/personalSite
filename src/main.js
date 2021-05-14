@@ -9,29 +9,15 @@ import {
   faTwitter,
   faGithub,
   faDiscord,
-  faNodeJs,
   faPython,
-  faVuejs,
-  faHtml5,
-  faCss3Alt,
-  faUbuntu,
+  faJsSquare,
+  faNodeJs,
+  faReact,
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-library.add(
-  faSpotify,
-  faTwitter,
-  faGithub,
-  faDiscord,
-  faEnvelope,
-  faNodeJs,
-  faPython,
-  faVuejs,
-  faHtml5,
-  faCss3Alt,
-  faUbuntu,
-);
+library.add(faSpotify, faTwitter, faGithub, faDiscord, faEnvelope, faPython, faJsSquare, faNodeJs, faReact);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false;

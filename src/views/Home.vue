@@ -49,12 +49,10 @@
           </a>
         </div>
         <div v-show="true" class="mt-4 sm:px-0 px-6 flex flex-wrap sm:justify-start justify-center text-sm opacity-75">
-          <!-- <font-awesome-icon class="mr-4" :icon="['fab', 'node-js']" /> -->
           <font-awesome-icon class="mr-4" :icon="['fab', 'python']" />
-          <!-- <font-awesome-icon class="mr-4" :icon="['fab', 'vuejs']" /> -->
-          <font-awesome-icon class="mr-4" :icon="['fab', 'html5']" />
-          <font-awesome-icon class="mr-4" :icon="['fab', 'css3-alt']" />
-          <font-awesome-icon :icon="['fab', 'ubuntu']" />
+          <font-awesome-icon class="mr-4" :icon="['fab', 'js-square']" />
+          <font-awesome-icon class="mr-4" :icon="['fab', 'node-js']" />
+          <font-awesome-icon :icon="['fab', 'react']" />
         </div>
       </div>
     </div>
