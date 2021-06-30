@@ -39,7 +39,11 @@
             <font-awesome-icon class="mr-2" :icon="['fab', 'twitter']" />
             <div class="text-xs">@_jameslovern</div>
           </a>
-          <a href="https://dsc.bio/james" target="_blank" class="flex items-center mr-5 hover:text-indigo-300 mt-2">
+          <a
+            href="https://discord.com/users/615617007949316096"
+            target="_blank"
+            class="flex items-center mr-5 hover:text-indigo-300 mt-2"
+          >
             <font-awesome-icon class="mr-2" :icon="['fab', 'discord']" />
             <div class="text-xs">Jazzzi#6120</div>
           </a>
